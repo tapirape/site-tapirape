@@ -57,6 +57,8 @@ settings[coltwotitle]    = "This is column Two"
 settings[coltwo]         = <div class="image_wrapper"><img src="sites/all/themes/bluez/images/promoted/col2.jpg"></div>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Fusce vel iaculis felis. Nulla nec turpis neque. In vel lorem et odio dictum dapibus. Vestibulum vitae sapien id mauris sollicitudin gravida. Vivamus nec risus nec turpis elementum molestie. Duis viverra pretium sapien.
 settings[colthreetitle]  = "This is column Three"
 settings[colthree]       = <div class="image_wrapper"><img src="sites/all/themes/bluez/images/promoted/col3.jpg"></div>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Fusce vel iaculis felis. Nulla nec turpis neque. In vel lorem et odio dictum dapibus. Vestibulum vitae sapien id mauris sollicitudin gravida. Vivamus nec risus nec turpis elementum molestie. Duis viverra pretium sapien.
+settings[colfourtitle]  = "This is column Three"
+settings[colfour]       = <div class="image_wrapper"><img src="sites/all/themes/bluez/images/promoted/col3.jpg"></div>Lorem ipsum dolor sit amet, <a href="#">consectetur adipiscing</a> elit. Fusce vel iaculis felis. Nulla nec turpis neque. In vel lorem et odio dictum dapibus. Vestibulum vitae sapien id mauris sollicitudin gravida. Vivamus nec risus nec turpis elementum molestie. Duis viverra pretium sapien.
 
 ; Information added by drupal.org packaging script on 2013-07-01
 version = "7.x-1.0"
