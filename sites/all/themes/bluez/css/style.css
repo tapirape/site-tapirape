@@ -508,9 +508,9 @@ h4 a {
 }
 
 #main-menu .menu li ul {
-  border-top: 4px solid #01ace4;
-  min-width: 10em;
-  right: -10px;
+    border-top: 5px solid black;
+    min-width: 15em;
+    right: -10px;
 }
 
 #main-menu .menu li li {
@@ -1404,6 +1404,12 @@ z-index: 9999;
 }
 
 .three .column {
+	width: 100%;
+	margin: 0;
+	padding: 0 0 20px 0;
+}
+
+.four .column {
 	width: 100%;
 	margin: 0;
 	padding: 0 0 20px 0;
