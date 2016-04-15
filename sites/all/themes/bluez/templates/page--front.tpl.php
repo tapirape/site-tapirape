@@ -166,18 +166,22 @@
   <?php if (!empty($col1title)  || !empty($col1)): $num1 = 1;  endif; ?>
   <?php if (!empty($col2title)  || !empty($col2)): $num2 = 1;  endif; ?>
   <?php if (!empty($col3title) || !empty($col3)): $num3 = 1;  endif; ?>
+  <?php if (!empty($col4title) || !empty($col4)): $num4 = 1;  endif; ?>
   <?php
-    $sum = (isset($num1) . isset($num2) . isset($num3));
+    $sum = (isset($num1) . isset($num2) . isset($num3) . isset($num4));
     $result = strlen($sum);
     if ($result == 1):$value = "one";endif;
     if ($result == 2):$value = "two";endif;
     if ($result == 3):$value = "three";endif;
+    if ($result == 4):$value = "four";endif;
     $value_trail1 = "1";
     if ($result == 1):$value_trail1 = "last";endif;
     $value_trail2 = "2";
     if ($result == 2):$value_trail2 = "last";endif;
     $value_trail3 = "3";
     if ($result == 3):$value_trail3 = "last";endif;
+    $value_trail4 = "4";
+    if ($result == 4):$value_trail4 = "last";endif;
   ?>
   <div id="column-context" class="clearfix <?php print $value; ?>">
     <div id="column-wrapper" class="clearfix <?php print $value; ?>">
@@ -208,6 +212,16 @@
           <?php endif; ?>
           <?php if($col3): ?>
             <div class="col-content"> <?php print ($col3); ?> </div>
+          <?php endif; ?>
+        </div>
+      <?php endif; ?>
+      <?php if($col4title || $col4): ?>
+        <div class="column <?php print $value_trail4; ?>">
+          <?php if($col4title): ?>
+            <h2><?php print ($col4title); ?></h2>
+          <?php endif; ?>
+          <?php if($col4): ?>
+            <div class="col-content"> <?php print ($col4); ?> </div>
           <?php endif; ?>
         </div>
       <?php endif; ?>

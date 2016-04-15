@@ -78,6 +78,8 @@ function bluez_preprocess_page(&$vars) {
   $vars['col2title'] = filter_xss_admin(theme_get_setting('coltwotitle', 'bluez'));
   $vars['col3'] = filter_xss_admin(theme_get_setting('colthree', 'bluez'));
   $vars['col3title'] = filter_xss_admin(theme_get_setting('colthreetitle', 'bluez'));
+  $vars['col4'] = filter_xss_admin(theme_get_setting('colfour', 'bluez'));
+  $vars['col4title'] = filter_xss_admin(theme_get_setting('colfourtitle', 'bluez'));
   $vars['img1'] = base_path() . drupal_get_path('theme', 'bluez') . '/images/slideshow/slide-image-1.jpg';
   $vars['img2'] = base_path() . drupal_get_path('theme', 'bluez') . '/images/slideshow/slide-image-2.jpg';
   $vars['img3'] = base_path() . drupal_get_path('theme', 'bluez') . '/images/slideshow/slide-image-3.jpg';

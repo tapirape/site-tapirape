@@ -42,6 +42,7 @@
   right: 10px;
   bottom: 10px;
   position: absolute;
+  top: 0px;
 }
 
 .paging a {
@@ -68,14 +69,16 @@
 }
 
 .descriptions {
-  width: 520px;
-  z-index: 101;
-  background: none repeat scroll 0 0 #932a00;
-  box-shadow: 0 0 50px 50px #932a00 inset;
-  height: 100%;
-  padding: 0 40px;
-  position: absolute;
-  right: 0%;
+    background: #932a00 none repeat scroll 0 0;
+    box-shadow: 0 0 50px 50px #932a00 inset;
+    height: 100px;
+    opacity: 0.9;
+    padding: 0 40px;
+    position: absolute;
+    right: 10px;
+    width: 520px;
+    z-index: 101;
+    top: 241px;
 }
 
 .desc {

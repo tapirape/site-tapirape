@@ -179,6 +179,18 @@ function bluez_form_system_theme_settings_alter(&$form, &$form_state) {
     '#default_value' => theme_get_setting('colthree', 'bluez'),
     '#description'   => t("Enter Description for Third Column."),
   );
+  $form['bluez_settings']['Columns']['colfourtitle'] = array(
+    '#type' => 'textfield',
+    '#title' => t('Third Column Four'),
+    '#default_value' => theme_get_setting('colfourtitle', 'bluez'),
+    '#description'   => t("Enter Title for Fourth Column."),
+  );
+  $form['bluez_settings']['Columns']['colfour'] = array(
+    '#type' => 'textarea',
+    '#title' => t('Third Column Description'),
+    '#default_value' => theme_get_setting('colfour', 'bluez'),
+    '#description'   => t("Enter Description for Fourth Column."),
+  );
   $form['bluez_settings']['footer'] = array(
     '#type' => 'fieldset',
     '#title' => t('Footer'),
